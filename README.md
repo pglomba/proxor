@@ -19,7 +19,7 @@
 ### Config
 Proxor service looks for a configuration file `config.yaml` in a directory the tool's binary file is. 
 
-Example config.yaml
+Example `config.yaml`:
 ```yaml
 proxy:
   port: 443
