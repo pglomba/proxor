@@ -1,12 +1,12 @@
-<h1 style="text-align: center;">
+<h1 align="center">
   <br>
   Proxor
   <br>
 </h1>
 
-<h4 style="text-align: center;">A simple reverse proxy with HTTP request mirroring capability</h4>
+<h4 align="center">A simple reverse proxy with HTTP request mirroring capability</h4>
 
-<p style="text-align: center;">
+<p align="center">
 	<a href="https://github.com/pglomba/proxor/actions/workflows/ci.yaml"><img src="https://github.com/pglomba/proxor/actions/workflows/ci.yaml/badge.svg"></a>
 </p>
 
