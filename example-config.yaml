@@ -1,0 +1,29 @@
+proxy:
+  port: 443
+  readTimeout: 5
+  writeTimeout: 10
+  idleTimeout: 15
+  backendUrl: "https://foo.bar.net"
+  tlsEnable: True
+  mirrorEnable: True
+  tlsMinVersion: "VersionTLS12"
+  tlsCipherSuites:
+    - "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+    - "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+    - "TLS_RSA_WITH_AES_256_GCM_SHA384"
+    - "TLS_RSA_WITH_AES_128_GCM_SHA256"
+certificates:
+  - name: "bar.net"
+    certificateFile: "./bar.net.crt"
+    certificateChainFile: "./bar.net-intermediate.crt"
+    certificateKey: "./bar.net.key"
+logLevel: "info"
+mirror:
+  targetUrl: "https://mirror"
+  clientTimeout: 5
+  clientTransportTimeout: 5
+  clientTransportKeepAlive: 30
+  clientTransportTLSHandshakeTimeout: 10
+  clientTransportResponseHeaderTimeout: 10
+  clientTransportSkipVerify: False
+  clientExpectContinueTimeout: 5
