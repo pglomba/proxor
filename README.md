@@ -15,6 +15,7 @@
 * Mirror requests to the mirror URL
 * TLS support
 * Config file based configuration
+* Logging to STDOUT or a log file
 
 ### Config
 Proxor service looks for a configuration file `config.yaml` in a directory the tool's binary file is. 
